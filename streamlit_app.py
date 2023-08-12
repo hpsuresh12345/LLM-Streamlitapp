@@ -3,7 +3,7 @@ from langchain.llms import OpenAI
 
 st.title('🦜🔗 LLM Quickstart App')
 
-openai_api_key = st.sidebar.text_input('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')
+openai_api_key = st.sidebar.text_input('enter open api')
 
 
 def generate_response(input_text):
